@@ -1,0 +1,71 @@
+.courseHeader {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.courseHeader h3 {
+  margin-bottom: 5px;
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.period {
+  font-style: italic;
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.description {
+  margin: 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.curriculumGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.semesterBlock {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.semesterBlock h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: var(--title-color);
+  border-bottom: 1px solid var(--glass-border);
+  padding-bottom: 10px;
+}
+
+.subjects {
+  font-size: 0.9em;
+  margin-bottom: 15px;
+  flex-grow: 1;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+}
+
+.techTag {
+  background: var(--glass-bg);
+  color: var(--text-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

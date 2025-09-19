@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Portfólio Pessoal - Hércules Arthur Nardelli
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvido com React para apresentar minhas habilidades, experiências e trajetória como um desenvolvedor e futuro Engenheiro de Software. O design foi inspirado na estética **Liquid Glass (Glassmorfismo)**, buscando uma interface moderna, limpa e visualmente agradável.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 🔗 **[Veja o projeto ao vivo!](https://SEU_LINK_AQUI.com)**
 
-### `npm start`
+![Prévia do Portfólio](https://caminho/para/sua/imagem.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Design Responsivo:** Totalmente adaptado para visualização em desktops, tablets e celulares.
+- **Interface "Liquid Glass":** Efeito de vidro fosco que cria uma sensação de profundidade e modernidade.
+- **Navegação com Rolagem Suave:** Experiência de usuário fluida ao navegar entre as seções.
+- **Componentização com React:** Código organizado em componentes reutilizáveis para fácil manutenção.
+- **Estrutura Escalável:** Organização de pastas e arquivos pensada para o crescimento do projeto.
 
-### `npm test`
+## 🚀 Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-### `npm run build`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React Icons** para os ícones de contato.
+- **CSS Modules** para estilização encapsulada e livre de conflitos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏁 Como Rodar o Projeto Localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Siga os passos abaixo para executar o projeto na sua máquina.
 
-### `npm run eject`
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node.js](https://nodejs.org/en/) (versão 16 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Instalação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/HerculesArthurN/repositorio-portfolio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd repositorio-portfolio
+    ```
 
-## Learn More
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.  **Inicie a aplicação:**
+    ```bash
+    npm start
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A aplicação estará disponível em `http://localhost:3000`.
 
-### Code Splitting
+## 📂 Estrutura de Pastas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+O projeto utiliza uma estrutura de pastas organizada para separar responsabilidades e facilitar a manutenção:
 
-### Analyzing the Bundle Size
+## 📫 Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Hércules Arthur Nardelli**
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **LinkedIn:** [https://linkedin.com/in/hercules-arthur-nardelli](https://linkedin.com/in/hercules-arthur-nardelli)
+- **GitHub:** [https://github.com/HerculesArthurN](https://github.com/HerculesArthurN)
+- **Email:** trindadehan@gmail.com

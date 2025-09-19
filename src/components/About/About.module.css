@@ -1,0 +1,93 @@
+.aboutContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.profile {
+  flex: 0 0 250px;
+  text-align: center;
+}
+
+.profilePic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid var(--glass-border);
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 1.8em;
+  line-height: 1.2;
+}
+
+.location {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.objective, .languages {
+  margin-bottom: 20px;
+}
+
+.bioSection {
+  margin-top: 30px;
+}
+
+.languagesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 15px;
+}
+
+.languageItem {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.languageFlag {
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.languageName {
+  font-weight: 600;
+  color: var(--title-color);
+}
+
+.languageLevel {
+  font-size: 0.9em;
+}
+
+.languageDetails {
+  font-size: 0.8em;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile {
+    flex-basis: auto;
+    width: 100%;
+  }
+}

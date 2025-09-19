@@ -1,0 +1,30 @@
+.jobBlock {
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid var(--glass-border); /* Linha para separar múltiplas experiências */
+}
+
+.jobBlock:first-of-type {
+  padding-top: 0;
+  margin-top: 0;
+  border-top: none;
+}
+
+.jobHeader {
+  margin-bottom: 5px;
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.period {
+  font-style: italic;
+  font-size: 0.9em;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.description {
+  margin: 0;
+  line-height: 1.7;
+}
