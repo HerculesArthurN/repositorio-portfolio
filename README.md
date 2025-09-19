@@ -4,9 +4,11 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 
 ---
 
-### 🔗 **[Veja o projeto ao vivo!](https://SEU_LINK_AQUI.com)**
+### 🔗 **[Veja o projeto ao vivo!](https://herculesarthurn.github.io/repositorio-portfolio/)**
 
-![Prévia do Portfólio](https://caminho/para/sua/imagem.png)
+![Prévia do Portfólio](image.png)
+
+> **Nota:** Para que a imagem acima apareça, tire um print screen do seu site, nomeie o arquivo como `preview.png`, e adicione-o à pasta principal do seu repositório.
 
 ## ✨ Funcionalidades
 
@@ -24,9 +26,11 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?style=for-the-badge&logo=github&logoColor=white)
 
 - **React Icons** para os ícones de contato.
 - **CSS Modules** para estilização encapsulada e livre de conflitos.
+- **gh-pages** para deploy automatizado no GitHub Pages.
 
 ## 🏁 Como Rodar o Projeto Localmente
 
@@ -41,7 +45,7 @@ Siga os passos abaixo para executar o projeto na sua máquina.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/HerculesArthurN/repositorio-portfolio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone [https://github.com/HerculesArthurN/repositorio-portfolio.git](https://github.com/HerculesArthurN/repositorio-portfolio.git)
     ```
 
 2.  **Navegue até a pasta do projeto:**
@@ -58,17 +62,26 @@ Siga os passos abaixo para executar o projeto na sua máquina.
     ```bash
     npm start
     ```
-
-A aplicação estará disponível em `http://localhost:3000`.
+    A aplicação estará disponível em `http://localhost:3000`.
 
 ## 📂 Estrutura de Pastas
 
 O projeto utiliza uma estrutura de pastas organizada para separar responsabilidades e facilitar a manutenção:
 
+```
+/src
+├── assets/       # Imagens e outros arquivos estáticos
+├── components/   # Componentes reutilizáveis (About, Skills, etc.)
+├── data/         # Arquivo central com os dados do currículo
+├── layout/       # Componentes de estrutura (Navbar, Footer)
+├── pages/        # Componentes de página (HomePage)
+└── styles/       # Estilos globais
+```
+
 ## 📫 Contato
 
 **Hércules Arthur Nardelli**
 
-- **LinkedIn:** [https://linkedin.com/in/hercules-arthur-nardelli](https://linkedin.com/in/hercules-arthur-nardelli)
-- **GitHub:** [https://github.com/HerculesArthurN](https://github.com/HerculesArthurN)
+- **LinkedIn:** [hercules-arthur-nardelli](https://linkedin.com/in/hercules-arthur-nardelli)
+- **GitHub:** [@HerculesArthurN](https://github.com/HerculesArthurN)
 - **Email:** trindadehan@gmail.com
