@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/repositorio-portfolio/static/css/main.86ba1709.css",
-    "main.js": "/repositorio-portfolio/static/js/main.0507e1ad.js",
+    "main.css": "/repositorio-portfolio/static/css/main.f66fede4.css",
+    "main.js": "/repositorio-portfolio/static/js/main.d19307ad.js",
+    "static/media/portfolio.png": "/repositorio-portfolio/static/media/portfolio.c9c0e9eff1f54c868451.png",
     "static/media/background.jpg": "/repositorio-portfolio/static/media/background.02b6757b805bc6842f93.jpg",
     "static/media/profile.jpg": "/repositorio-portfolio/static/media/profile.4cad8a3c9940bcf9d2c3.jpg",
+    "static/media/pomodoro.png": "/repositorio-portfolio/static/media/pomodoro.7e4a30672aa5827ef073.png",
     "index.html": "/repositorio-portfolio/index.html",
-    "main.86ba1709.css.map": "/repositorio-portfolio/static/css/main.86ba1709.css.map",
-    "main.0507e1ad.js.map": "/repositorio-portfolio/static/js/main.0507e1ad.js.map"
+    "main.f66fede4.css.map": "/repositorio-portfolio/static/css/main.f66fede4.css.map",
+    "main.d19307ad.js.map": "/repositorio-portfolio/static/js/main.d19307ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.86ba1709.css",
-    "static/js/main.0507e1ad.js"
+    "static/css/main.f66fede4.css",
+    "static/js/main.d19307ad.js"
   ]
 }
