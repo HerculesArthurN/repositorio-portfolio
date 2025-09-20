@@ -1,11 +1,23 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaYoutube } from 'react-icons/fa';
+import { 
+  FaGithub, FaLinkedin, FaEnvelope, FaYoutube, 
+  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, 
+  FaNodeJs, FaPython, FaJava, FaGitAlt, FaLinux 
+} from 'react-icons/fa';
+
+import { SiMysql, SiExpress, SiJest, SiMongodb, SiVercel } from 'react-icons/si';
+import { DiScrum } from 'react-icons/di';
+import { VscVscode } from 'react-icons/vsc';
+import { BsFillDatabaseFill, BsCodeSlash, BsClipboardCheck, BsFileEarmarkCode } from 'react-icons/bs';
+import { AiOutlineApi, AiOutlineCloudServer, AiOutlineMobile } from 'react-icons/ai';
+import { CgWebsite } from 'react-icons/cg';
+import { MdOutlineArchitecture } from 'react-icons/md';
 
 export const personalInfo = {
   name: "Hércules Arthur Nardelli",
   location: "São José dos Pinhais, Paraná, Brasil",
   email: "herculesnardelli@gmail.com",
   socialLinks: [
-    { name: "Email", icon: FaEnvelope, url: "mailto:trindadehan@gmail.com" },
+    { name: "Email", icon: FaEnvelope, url: "mailto:herculesnardelli@gmail.com" },
     { name: "GitHub", icon: FaGithub, url: "https://github.com/HerculesArthurN" },
     { name: "LinkedIn", icon: FaLinkedin, url: "https://linkedin.com/in/hercules-arthur-nardelli" },
     { name: "YouTube", icon: FaYoutube, url: "https://youtube.com/@herculesarthurnardelli?si=UGhUviz8fDeFZVKJ" },
@@ -14,12 +26,12 @@ export const personalInfo = {
 
 export const objective = {
   title: "🎯 Objetivo",
-  description: "Atuar como Desenvolvedor, contribuindo para a criação de aplicações web escaláveis, com interfaces modernas e intuitivas. Busco uma oportunidade que permita aprimorar minhas habilidades em front-end e integrações com back-end, colaborando com equipes ágeis e agregando valor ao produto final."
+  description: "Atuar como Desenvolvedor Full Stack. Busco aprimorar minhas habilidades em tecnologias como React, Node.js, TypeScript e bancos de dados relacionais/não-relacionais, contribuindo com equipes ágeis e projetos de alto impacto."
 };
 
 export const aboutMe = {
   title: "👋 Um Pouco Sobre Mim",
-  description: "Tenho {age} anos, sou casado e pai de um menino. Fora do trabalho e dos estudos, gosto de respirar ar fresco, plantando e vendendo morangos. Quando quero descontrair, curto jogar FPS, ler mangás, manhwas e webtoons e, acredite ou não, treinar musculação!"
+  description: "Tenho {age} anos, sou casado e pai de um menino. Fora do trabalho e dos estudos, gosto de respirar ar fresco, plantando morangos. Quando quero descontrair, curto jogar FPS, ler mangás, manhwas, webtoons e treinar musculação!"
 };
 
 export const professionalExperience = {
@@ -39,27 +51,65 @@ export const technicalSkills = {
   categories: [
     { 
       name: "Front-end", 
-      skills: ["React", "JavaScript ES6+", "HTML5", "CSS3", "React Native", "UI/UX Design"] 
+      skills: [
+        { name: "React", icon: <FaReact /> },
+        { name: "JavaScript ES6+", icon: <FaJsSquare /> },
+        { name: "HTML5", icon: <FaHtml5 /> },
+        { name: "CSS3", icon: <FaCss3Alt /> },
+        { name: "React Native", icon: <AiOutlineMobile /> },
+        { name: "UI/UX Design", icon: <CgWebsite /> }
+      ]
     },
     { 
       name: "Back-end", 
-      skills: ["Node.js", "Express.js", "Python", "Java", "APIs REST"] 
+      skills: [
+        { name: "Node.js", icon: <FaNodeJs /> },
+        { name: "Express.js", icon: <SiExpress /> },
+        { name: "Python", icon: <FaPython /> },
+        { name: "Java", icon: <FaJava /> },
+        { name: "APIs REST", icon: <AiOutlineApi /> }
+      ] 
     },
     {
       name: "Bancos de Dados",
-      skills: ["MySQL", "SQL", "MongoDB", "Modelagem de Dados"]
+      skills: [
+        { name: "MySQL", icon: <SiMysql /> },
+        { name: "SQL", icon: <BsFillDatabaseFill /> },
+        { name: "MongoDB", icon: <SiMongodb /> },
+        { name: "Modelagem de Dados", icon: <BsFillDatabaseFill /> }
+      ]
     },
     {
       name: "DevOps & Testes",
-      skills: ["Git", "GitHub", "CI/CD", "Jest", "Testes de Software", "Linux"]
+      skills: [
+        { name: "Git", icon: <FaGitAlt /> },
+        { name: "GitHub", icon: <FaGithub /> },
+        { name: "CI/CD", icon: <SiVercel /> },
+        { name: "Jest", icon: <SiJest /> },
+        { name: "Testes de Software", icon: <BsClipboardCheck /> },
+        { name: "Linux", icon: <FaLinux /> }
+      ]
     },
     {
       name: "Ferramentas",
-      skills: ["VS Code", "Power BI", "Office", "Scrum"]
+      skills: [
+        { name: "VS Code", icon: <VscVscode /> },
+        { name: "Scrum", icon: <DiScrum /> },
+        // Power BI e Office não têm ícones populares em react-icons,
+        // então deixei sem para manter a consistência.
+        // Se encontrar um, pode adicionar!
+        { name: "Power BI" }, 
+        { name: "Office" }
+      ]
     },
     {
       name: "Metodologias & Conceitos",
-      skills: ["POO", "Clean Code", "Arquitetura de Software", "Engenharia de Requisitos"]
+      skills: [
+        { name: "POO", icon: <BsFileEarmarkCode /> },
+        { name: "Clean Code", icon: <BsCodeSlash /> },
+        { name: "Arquitetura de Software", icon: <MdOutlineArchitecture /> },
+        { name: "Engenharia de Requisitos", icon: <BsClipboardCheck /> }
+      ]
     }
   ]
 };
@@ -69,7 +119,7 @@ export const education = {
   course: "Bacharelado em Engenharia de Software",
   institution: "UNOPAR Anhanguera",
   period: "Jan/2023 – Jun/2026 (Previsto)",
-  description: "Formação focada em arquitetura de software, design de componentes e modelagem de dados, com conhecimentos em OOP, Clean Code, testes automatizados, CI/CD, Scrum, Git/GitHub, bancos SQL/NoSQL e APIs REST.",
+  description: "Minha formação em Engenharia de Software está me capacitando para atuar em todo o ciclo de vida de um produto digital. Com foco prático em arquitetura de software e modelagem de dados, estou construindo expertise em Programação Orientada a Objetos (POO), Clean Code e práticas de DevOps como CI/CD. Tenho familiaridade com metodologias ágeis como Scrum e sou proficiente no ecossistema Git/GitHub para controle de versão, além de ter conhecimento em bancos de dados SQL e NoSQL e na criação de APIs REST.",
   curriculum: [
     {
       semester: "1º Semestre",
@@ -123,5 +173,27 @@ export const languages = {
       level: "Avançado (B2)",
       details: "Certificado IELTS | Wizard (2017–2019)"
     }
+  ]
+};
+
+export const projects = {
+  title: "🚀 Projetos Pessoais",
+  items: [
+    {
+      image: "pomodoro.png",
+      title: "To-Do List com Timer Pomodoro",
+      description: "Uma aplicação que une um gerenciador de tarefas a um cronômetro da técnica Pomodoro para auxiliar na gestão do tempo e produtividade. Permite adicionar, concluir e selecionar tarefas, iniciando um timer regressivo para manter o foco. Ao final, a tarefa é marcada como concluída automaticamente.",
+      technologies: ["React", "TypeScript", "SASS/SCSS", "UUID"],
+      liveUrl: "https://to-do-list-pomodoro-react.vercel.app/",
+      repoUrl: "https://github.com/HerculesArthurN/to-do-list-pomodoro-react"
+    },
+    {
+      image: "portfolio.png",
+      title: "Portfólio Pessoal em React",
+      description: "Portfólio pessoal para centralizar e apresentar minhas habilidades e projetos. Construído do zero com React, o site apresenta um design moderno no estilo Liquid Glass (Glassmorfismo). O projeto é totalmente componentizado, responsivo e seu conteúdo é gerenciado de forma centralizada em um arquivo de dados, facilitando futuras atualizações.",
+      technologies: ["React", "JavaScript (ES6+)", "CSS Modules", "HTML5", "GitHub Pages"],
+      liveUrl: "https://herculesarthurn.github.io/repositorio-portfolio/",
+      repoUrl: "https://github.com/HerculesArthurN/repositorio-portfolio"
+    },
   ]
 };

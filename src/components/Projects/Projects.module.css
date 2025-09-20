@@ -1,0 +1,82 @@
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.projectCard {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: 1px solid var(--glass-border);
+  overflow: hidden; /* Garante que a imagem não saia das bordas arredondadas */
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.projectImage {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.projectContent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Faz este container crescer para preencher o espaço */
+}
+
+.projectTitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--title-color);
+}
+
+.projectDescription {
+  font-size: 0.9em;
+  line-height: 1.6;
+  flex-grow: 1; /* Empurra os links e tags para o final */
+}
+
+.projectTechList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.techTag {
+  background: var(--glass-bg);
+  color: var(--text-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.projectLinks {
+  display: flex;
+  gap: 20px;
+  margin-top: auto; /* Alinha os links na base do card */
+}
+
+.projectLinks a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.projectLinks a:hover {
+  color: var(--link-hover-color);
+}

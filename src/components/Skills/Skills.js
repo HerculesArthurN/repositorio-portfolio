@@ -3,7 +3,6 @@ import { technicalSkills } from '../../data/portfolioData';
 import styles from './Skills.module.css';
 
 const Skills = () => {
-
   return (
     <section id="skills" className="glass-card">
       <h2>{technicalSkills.title}</h2>
@@ -11,9 +10,16 @@ const Skills = () => {
         {technicalSkills.categories.map(category => (
           <div key={category.name} className={styles.skillCategory}>
             <h3>{category.name}</h3>
-            <ul>
-              {category.skills.map(skill => <li key={skill}>{skill}</li>)}
-            </ul>
+            {/* Trocamos <ul> por <div> para melhor controle com flexbox */}
+            <div className={styles.skillsList}>
+              {category.skills.map(skill => (
+                <div key={skill.name} className={styles.skillTag}>
+                  {/* Renderiza o ícone se ele existir */}
+                  {skill.icon && <span className={styles.skillIcon}>{skill.icon}</span>}
+                  {skill.name}
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>

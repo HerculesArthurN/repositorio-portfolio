@@ -6,9 +6,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi desenvolvi
 
 ### 🔗 **[Veja o projeto ao vivo!](https://herculesarthurn.github.io/repositorio-portfolio/)**
 
-![Prévia do Portfólio](image.png)
-
-> **Nota:** Para que a imagem acima apareça, tire um print screen do seu site, nomeie o arquivo como `preview.png`, e adicione-o à pasta principal do seu repositório.
+![Prévia do Portfólio](./public/images/portfolio.png)
 
 ## ✨ Funcionalidades
 
