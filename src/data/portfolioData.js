@@ -1,7 +1,7 @@
-import { 
-  FaGithub, FaLinkedin, FaEnvelope, FaYoutube, 
-  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, 
-  FaNodeJs, FaPython, FaJava, FaGitAlt, FaLinux 
+import {
+  FaGithub, FaLinkedin, FaEnvelope, FaYoutube,
+  FaHtml5, FaCss3Alt, FaJsSquare, FaReact,
+  FaNodeJs, FaPython, FaJava, FaGitAlt, FaLinux
 } from 'react-icons/fa';
 
 import { SiMysql, SiExpress, SiJest, SiMongodb, SiVercel } from 'react-icons/si';
@@ -26,12 +26,12 @@ export const personalInfo = {
 
 export const objective = {
   title: "🎯 Objetivo",
-  description: "Atuar como Desenvolvedor Full Stack. Busco aprimorar minhas habilidades em tecnologias como React, Node.js, TypeScript e bancos de dados relacionais/não-relacionais, contribuindo com equipes ágeis e projetos de alto impacto."
+  description: "Engenheiro de Software em formação (último período) com background prévio em E-commerce e Suporte Digital. Transicionando carreira com foco em desenvolvimento Fullstack (React/Node.js). Busco aplicar minha vivência de negócio e novas competências técnicas em projetos desafiadores!"
 };
 
 export const aboutMe = {
   title: "👋 Um Pouco Sobre Mim",
-  description: "Tenho {age} anos, sou casado e pai de um menino. Fora do trabalho e dos estudos, gosto de respirar ar fresco, plantando morangos. Quando quero descontrair, curto jogar FPS, ler mangás, manhwas, webtoons e treinar musculação!"
+  description: "Tenho {age} anos, sou casado e pai de um menino. Fora do trabalho e dos estudos, gosto de respirar ar fresco, plantando morangos."
 };
 
 export const professionalExperience = {
@@ -49,8 +49,8 @@ export const professionalExperience = {
 export const technicalSkills = {
   title: "🧪 Habilidades Técnicas",
   categories: [
-    { 
-      name: "Front-end", 
+    {
+      name: "Front-end",
       skills: [
         { name: "React", icon: <FaReact /> },
         { name: "JavaScript ES6+", icon: <FaJsSquare /> },
@@ -60,15 +60,15 @@ export const technicalSkills = {
         { name: "UI/UX Design", icon: <CgWebsite /> }
       ]
     },
-    { 
-      name: "Back-end", 
+    {
+      name: "Back-end",
       skills: [
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Express.js", icon: <SiExpress /> },
         { name: "Python", icon: <FaPython /> },
         { name: "Java", icon: <FaJava /> },
         { name: "APIs REST", icon: <AiOutlineApi /> }
-      ] 
+      ]
     },
     {
       name: "Bancos de Dados",
@@ -98,7 +98,7 @@ export const technicalSkills = {
         // Power BI e Office não têm ícones populares em react-icons,
         // então deixei sem para manter a consistência.
         // Se encontrar um, pode adicionar!
-        { name: "Power BI" }, 
+        { name: "Power BI" },
         { name: "Office" }
       ]
     },
@@ -194,6 +194,22 @@ export const projects = {
       technologies: ["React", "JavaScript (ES6+)", "CSS Modules", "HTML5", "GitHub Pages"],
       liveUrl: "https://herculesarthurn.github.io/repositorio-portfolio/",
       repoUrl: "https://github.com/HerculesArthurN/repositorio-portfolio"
+    },
+    {
+      image: "zenbolso.png",
+      title: "ZenBolso um gerente de bolso",
+      description: "Uma aplicação que une um gerenciador de tarefas a um cronômetro da técnica Pomodoro para auxiliar na gestão do tempo e produtividade. Permite adicionar, concluir e selecionar tarefas, iniciando um timer regressivo para manter o foco. Ao final, a tarefa é marcada como concluída automaticamente.",
+      technologies: ["React", "TypeScript", "SASS/SCSS", "UUID"],
+      liveUrl: "https://to-do-list-pomodoro-react.vercel.app/",
+      repoUrl: "https://github.com/HerculesArthurN/to-do-list-pomodoro-react"
+    },
+    {
+      image: "pokedex.png",
+      title: "To-Do List com Timer Pomodoro",
+      description: "Uma aplicação que une um gerenciador de tarefas a um cronômetro da técnica Pomodoro para auxiliar na gestão do tempo e produtividade. Permite adicionar, concluir e selecionar tarefas, iniciando um timer regressivo para manter o foco. Ao final, a tarefa é marcada como concluída automaticamente.",
+      technologies: ["React", "TypeScript", "SASS/SCSS", "UUID"],
+      liveUrl: "https://to-do-list-pomodoro-react.vercel.app/",
+      repoUrl: "https://github.com/HerculesArthurN/to-do-list-pomodoro-react"
     },
   ]
 };

@@ -2,7 +2,6 @@
   "name": "portfolio-hercules-nardelli",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://HerculesArthurN.github.io/repositorio-portfolio",
   "dependencies": {
     "react": "^19.1.1",
     "react-country-flag": "^3.1.0",
@@ -17,6 +16,10 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "eslintConfig": {
     "extends": [
