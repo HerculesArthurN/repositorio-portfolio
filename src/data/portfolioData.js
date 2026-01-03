@@ -27,12 +27,12 @@ export const personalInfo = {
 
 export const objective = {
   title: "🎯 Objetivo Profissional",
-  description: "Desenvolvedor Front-end em formação, especializado em React, TypeScript e arquiteturas modernas (PWA, Local-First). Busca posição como Desenvolvedor Júnior ou Estagiário para aplicar conhecimentos em engenharia de software, Clean Code e desenvolvimento de aplicações escaláveis com foco em experiência do usuário e performance."
+  description: "Engenheiro de Software | Desenvolvedor Frontend | Backend | FullStack | React & TypeScript"
 };
 
 export const aboutMe = {
-  title: "👋 Perfil Profissional",
-  description: "Desenvolvedor Front-end em formação pela UNOPAR (6º período), especializado na construção de interfaces modernas, fluidas e resilientes. Concentra estudos e projetos práticos no ecossistema React, explorando arquiteturas Local-First e Progressive Web Apps (PWAs) para garantir experiências otimizadas com ou sem conexão à internet.\n\nComprovou capacidade técnica no desenvolvimento de aplicações reais: ZenBolso (gestão financeira) e Zen Notes (produtividade), aliando código limpo à visão de negócio. Domina princípios de Clean Code e arquiteturas escaláveis utilizando TypeScript, Node.js e PostgreSQL.\n\nDestaca-se pelo raciocínio lógico estruturado, rápida adaptação a novas tecnologias e comprometimento com qualidade de código. Profissional proativo, analítico e orientado a resultados, pronto para contribuir em equipes de desenvolvimento ágil."
+  title: "👋 Sobre Mim",
+  description: "Engenheiro de Software (7º período) focado em desenvolvimento Frontend com React e TypeScript. Experiência na construção de PWAs e arquiteturas Local-First, priorizando Clean Code, performance e interfaces centradas no usuário."
 };
 
 export const professionalExperience = {
@@ -42,12 +42,12 @@ export const professionalExperience = {
       company: "MX Parts",
       location: "São José dos Pinhais, PR",
       role: "Assistente de Web & Operações Digitais",
-      period: "Abr/2015 – Mar/2018",
+      period: "abr/2015 a mar/2018",
       description: "Responsável pelo suporte técnico a interfaces de e-commerce e automação de processos operacionais, garantindo eficiência e padronização.",
       responsibilities: [
-        "Manteve e otimizou interfaces web utilizando HTML5 e CSS3, assegurando consistência visual e usabilidade",
-        "Desenvolveu automações em Excel para controle de estoque, aumentando a precisão e integridade dos dados operacionais",
-        "Aplicou técnicas de SEO e otimização de ativos digitais, contribuindo para melhor posicionamento e performance do e-commerce"
+        "Manteve e otimizou interfaces web utilizando HTML5 e CSS3, assegurando consistência visual e usabilidade.",
+        "Desenvolveu automações em Excel para controle de estoque, aumentando a precisão e integridade dos dados operacionais.",
+        "Aplicou técnicas de SEO e otimização de ativos digitais, contribuindo para melhor posicionamento e performance do e-commerce."
       ]
     }
   ]
@@ -121,8 +121,8 @@ export const education = {
   title: "📚 Formação Acadêmica",
   course: "Bacharelado em Engenharia de Software",
   institution: "UNOPAR Anhanguera",
-  period: "Jan/2023 – Jun/2026 (Previsto)",
-  description: "Formação em Engenharia de Software com foco em arquitetura de software, desenvolvimento web e modelagem de dados. Ao longo do curso, adquiri sólida base em Programação Orientada a Objetos, Clean Code, bancos de dados SQL e NoSQL, APIs REST, DevOps e metodologias ágeis, aplicando esses conceitos em projetos práticos.",
+  period: "Cursando o 6º semestre – Conclusão em 06/2026",
+  description: "Formação com foco em arquitetura de software, desenvolvimento web e modelagem de dados. Sólida base em Programação Orientada a Objetos, Clean Code, bancos de dados SQL/NoSQL, APIs REST e metodologias ágeis.",
   curriculum: [
     {
       semester: "1º Semestre",
@@ -174,7 +174,7 @@ export const languages = {
       countryCode: "US",
       name: "Inglês",
       level: "Avançado (B2)",
-      details: "Certificado IELTS | Wizard (2017–2019)"
+      details: "Wizard – 2019"
     }
   ]
 };
