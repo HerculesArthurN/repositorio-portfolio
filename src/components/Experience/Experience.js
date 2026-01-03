@@ -12,8 +12,17 @@ const Experience = () => {
           <h3 className={styles.jobHeader}>
             {job.company} – {job.role}
           </h3>
+          {job.location && <p className={styles.location}>{job.location}</p>}
           <p className={styles.period}>{job.period}</p>
           <p className={styles.description}>{job.description}</p>
+
+          {job.responsibilities && job.responsibilities.length > 0 && (
+            <ul className={styles.responsibilities}>
+              {job.responsibilities.map((resp, idx) => (
+                <li key={idx}>{resp}</li>
+              ))}
+            </ul>
+          )}
         </div>
       ))}
     </section>

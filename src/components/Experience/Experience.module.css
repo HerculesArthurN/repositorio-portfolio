@@ -1,7 +1,8 @@
 .jobBlock {
   padding-top: 20px;
   margin-top: 20px;
-  border-top: 1px solid var(--glass-border); /* Linha para separar múltiplas experiências */
+  border-top: 1px solid var(--glass-border);
+  /* Linha para separar múltiplas experiências */
 }
 
 .jobBlock:first-of-type {
@@ -17,6 +18,13 @@
   font-size: 1.2em;
 }
 
+.location {
+  font-size: 0.9em;
+  opacity: 0.7;
+  margin: 5px 0;
+  color: var(--text-color);
+}
+
 .period {
   font-style: italic;
   font-size: 0.9em;
@@ -25,6 +33,22 @@
 }
 
 .description {
-  margin: 0;
+  margin: 0 0 15px 0;
   line-height: 1.7;
+}
+
+.responsibilities {
+  margin: 15px 0 0 20px;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.responsibilities li {
+  margin-bottom: 8px;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+.responsibilities li::marker {
+  color: var(--accent-color);
 }

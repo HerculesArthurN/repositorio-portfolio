@@ -14,10 +14,11 @@ import { MdOutlineArchitecture } from 'react-icons/md';
 
 export const personalInfo = {
   name: "Hércules Arthur Nardelli",
+  headline: "Engenheiro de Software em Formação | React | TypeScript | Node.js | Desenvolvedor PWA & Local-First",
   location: "São José dos Pinhais, Paraná, Brasil",
   email: "herculesnardelli@gmail.com",
   socialLinks: [
-    { name: "Email", icon: FaEnvelope, url: "mailto:herculesnardelli@gmail.com" },
+    { name: "Email", icon: FaEnvelope, url: "mailto:trindadehan@gmail.com" },
     { name: "GitHub", icon: FaGithub, url: "https://github.com/HerculesArthurN" },
     { name: "LinkedIn", icon: FaLinkedin, url: "https://linkedin.com/in/hercules-arthur-nardelli" },
     { name: "YouTube", icon: FaYoutube, url: "https://youtube.com/@herculesarthurnardelli?si=UGhUviz8fDeFZVKJ" },
@@ -25,13 +26,13 @@ export const personalInfo = {
 };
 
 export const objective = {
-  title: "🎯 Objetivo",
-  description: "Engenheiro de Software em formação (último período) com background prévio em E-commerce e Suporte Digital. Transicionando carreira com foco em desenvolvimento Fullstack (React/Node.js). Busco aplicar minha vivência de negócio e novas competências técnicas em projetos desafiadores!"
+  title: "🎯 Objetivo Profissional",
+  description: "Desenvolvedor Front-end em formação, especializado em React, TypeScript e arquiteturas modernas (PWA, Local-First). Busca posição como Desenvolvedor Júnior ou Estagiário para aplicar conhecimentos em engenharia de software, Clean Code e desenvolvimento de aplicações escaláveis com foco em experiência do usuário e performance."
 };
 
 export const aboutMe = {
-  title: "👋 Um Pouco Sobre Mim",
-  description: "Tenho {age} anos, sou casado e pai de um menino. Fora do trabalho e dos estudos, gosto de respirar ar fresco, plantando morangos."
+  title: "👋 Perfil Profissional",
+  description: "Desenvolvedor Front-end em formação pela UNOPAR (6º período), especializado na construção de interfaces modernas, fluidas e resilientes. Concentra estudos e projetos práticos no ecossistema React, explorando arquiteturas Local-First e Progressive Web Apps (PWAs) para garantir experiências otimizadas com ou sem conexão à internet.\n\nComprovou capacidade técnica no desenvolvimento de aplicações reais: ZenBolso (gestão financeira) e Zen Notes (produtividade), aliando código limpo à visão de negócio. Domina princípios de Clean Code e arquiteturas escaláveis utilizando TypeScript, Node.js e PostgreSQL.\n\nDestaca-se pelo raciocínio lógico estruturado, rápida adaptação a novas tecnologias e comprometimento com qualidade de código. Profissional proativo, analítico e orientado a resultados, pronto para contribuir em equipes de desenvolvimento ágil."
 };
 
 export const professionalExperience = {
@@ -39,9 +40,15 @@ export const professionalExperience = {
   jobs: [
     {
       company: "MX Parts",
-      role: "Especialista de Conteúdo e E-commerce",
+      location: "São José dos Pinhais, PR",
+      role: "Assistente de Web & Operações Digitais",
       period: "Abr/2015 – Mar/2018",
-      description: "Atuei na linha de frente do e-commerce de uma das maiores lojas de motocross e off-road do Brasil. Fui responsável pela gestão completa do ciclo de vida dos produtos na plataforma online, desde a produção de fotografias até a criação de descrições técnicas e comerciais para um catálogo com milhares de itens. Realizei a atualização e manutenção de páginas utilizando HTML5, CSS e JavaScript, com um foco estratégico em otimização para SEO (Search Engine Optimization). Meu trabalho garantiu que os produtos tivessem máxima visibilidade e posicionamento nos motores de busca, contribuindo diretamente para a performance de vendas e a experiência do cliente."
+      description: "Responsável pelo suporte técnico a interfaces de e-commerce e automação de processos operacionais, garantindo eficiência e padronização.",
+      responsibilities: [
+        "Manteve e otimizou interfaces web utilizando HTML5 e CSS3, assegurando consistência visual e usabilidade",
+        "Desenvolveu automações em Excel para controle de estoque, aumentando a precisão e integridade dos dados operacionais",
+        "Aplicou técnicas de SEO e otimização de ativos digitais, contribuindo para melhor posicionamento e performance do e-commerce"
+      ]
     }
   ]
 };
@@ -52,12 +59,14 @@ export const technicalSkills = {
     {
       name: "Front-end",
       skills: [
-        { name: "React", icon: <FaReact /> },
-        { name: "JavaScript ES6+", icon: <FaJsSquare /> },
+        { name: "React 19", icon: <FaReact /> },
+        { name: "TypeScript", icon: <FaJsSquare /> },
+        { name: "JavaScript (ES6+)", icon: <FaJsSquare /> },
+        { name: "Tailwind CSS", icon: <FaCss3Alt /> },
         { name: "HTML5", icon: <FaHtml5 /> },
         { name: "CSS3", icon: <FaCss3Alt /> },
-        { name: "React Native", icon: <AiOutlineMobile /> },
-        { name: "UI/UX Design", icon: <CgWebsite /> }
+        { name: "PWA", icon: <AiOutlineMobile /> },
+        { name: "TanStack Query", icon: <AiOutlineApi /> }
       ]
     },
     {
@@ -65,50 +74,44 @@ export const technicalSkills = {
       skills: [
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Express.js", icon: <SiExpress /> },
-        { name: "Python", icon: <FaPython /> },
-        { name: "Java", icon: <FaJava /> },
         { name: "APIs REST", icon: <AiOutlineApi /> }
       ]
     },
     {
-      name: "Bancos de Dados",
+      name: "Bancos de Dados & Persistência",
       skills: [
-        { name: "MySQL", icon: <SiMysql /> },
-        { name: "SQL", icon: <BsFillDatabaseFill /> },
-        { name: "MongoDB", icon: <SiMongodb /> },
-        { name: "Modelagem de Dados", icon: <BsFillDatabaseFill /> }
+        { name: "PostgreSQL", icon: <BsFillDatabaseFill /> },
+        { name: "Supabase", icon: <AiOutlineCloudServer /> },
+        { name: "IndexedDB (Dexie.js)", icon: <BsFillDatabaseFill /> },
+        { name: "SQL", icon: <BsFillDatabaseFill /> }
       ]
     },
     {
-      name: "DevOps & Testes",
+      name: "DevOps & Build Tools",
       skills: [
         { name: "Git", icon: <FaGitAlt /> },
-        { name: "GitHub", icon: <FaGithub /> },
+        { name: "GitHub Actions", icon: <FaGithub /> },
         { name: "CI/CD", icon: <SiVercel /> },
-        { name: "Jest", icon: <SiJest /> },
-        { name: "Testes de Software", icon: <BsClipboardCheck /> },
-        { name: "Linux", icon: <FaLinux /> }
+        { name: "Vite", icon: <CgWebsite /> },
+        { name: "Webpack", icon: <CgWebsite /> }
       ]
     },
     {
-      name: "Ferramentas",
+      name: "Arquitetura & Metodologias",
+      skills: [
+        { name: "Arquitetura Local-First", icon: <MdOutlineArchitecture /> },
+        { name: "Clean Code", icon: <BsCodeSlash /> },
+        { name: "Scrum", icon: <DiScrum /> },
+        { name: "Resolução de Problemas", icon: <BsClipboardCheck /> }
+      ]
+    },
+    {
+      name: "Ferramentas & Outros",
       skills: [
         { name: "VS Code", icon: <VscVscode /> },
-        { name: "Scrum", icon: <DiScrum /> },
-        // Power BI e Office não têm ícones populares em react-icons,
-        // então deixei sem para manter a consistência.
-        // Se encontrar um, pode adicionar!
-        { name: "Power BI" },
-        { name: "Office" }
-      ]
-    },
-    {
-      name: "Metodologias & Conceitos",
-      skills: [
-        { name: "POO", icon: <BsFileEarmarkCode /> },
-        { name: "Clean Code", icon: <BsCodeSlash /> },
-        { name: "Arquitetura de Software", icon: <MdOutlineArchitecture /> },
-        { name: "Engenharia de Requisitos", icon: <BsClipboardCheck /> }
+        { name: "Zustand", icon: <BsCodeSlash /> },
+        { name: "Fuse.js", icon: <BsCodeSlash /> },
+        { name: "NLP (Regex)", icon: <BsFileEarmarkCode /> }
       ]
     }
   ]
@@ -119,7 +122,7 @@ export const education = {
   course: "Bacharelado em Engenharia de Software",
   institution: "UNOPAR Anhanguera",
   period: "Jan/2023 – Jun/2026 (Previsto)",
-  description: "Minha formação em Engenharia de Software está me capacitando para atuar em todo o ciclo de vida de um produto digital. Com foco prático em arquitetura de software e modelagem de dados, estou construindo expertise em Programação Orientada a Objetos (POO), Clean Code e práticas de DevOps como CI/CD. Tenho familiaridade com metodologias ágeis como Scrum e sou proficiente no ecossistema Git/GitHub para controle de versão, além de ter conhecimento em bancos de dados SQL e NoSQL e na criação de APIs REST.",
+  description: "Formação em Engenharia de Software com foco em arquitetura de software, desenvolvimento web e modelagem de dados. Ao longo do curso, adquiri sólida base em Programação Orientada a Objetos, Clean Code, bancos de dados SQL e NoSQL, APIs REST, DevOps e metodologias ágeis, aplicando esses conceitos em projetos práticos.",
   curriculum: [
     {
       semester: "1º Semestre",
@@ -177,39 +180,54 @@ export const languages = {
 };
 
 export const projects = {
-  title: "🚀 Projetos Pessoais",
+  title: "🚀 Projetos em Destaque",
   items: [
     {
-      image: "pomodoro.png",
-      title: "To-Do List com Timer Pomodoro",
-      description: "Uma aplicação que une um gerenciador de tarefas a um cronômetro da técnica Pomodoro para auxiliar na gestão do tempo e produtividade. Permite adicionar, concluir e selecionar tarefas, iniciando um timer regressivo para manter o foco. Ao final, a tarefa é marcada como concluída automaticamente.",
-      technologies: ["React", "TypeScript", "SASS/SCSS", "UUID"],
-      liveUrl: "https://to-do-list-pomodoro-react.vercel.app/",
-      repoUrl: "https://github.com/HerculesArthurN/to-do-list-pomodoro-react"
+      image: "zenbolso.png",
+      title: "ZenBolso — Gerenciador Financeiro Pessoal (PWA)",
+      description:
+        "PWA para gestão financeira pessoal com arquitetura Local-First. Implementa persistência local via IndexedDB para funcionamento offline completo e sincronização opcional em nuvem (Supabase), priorizando performance, resiliência e experiência do usuário em qualquer condição de conectividade.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "PostgreSQL",
+        "IndexedDB",
+        "PWA"
+      ],
+      liveUrl: "https://zenbolso.vercel.app",
+      repoUrl: "https://github.com/HerculesArthurN/zenbolso"
+    },
+    {
+      image: "zen-notes.png",
+      title: "Zen Notes — Sistema de Produtividade e Foco",
+      description:
+        "Sistema de produtividade fundamentado em metodologias comprovadas (Kanban, Ivy Lee, Eat the Frog). Integra gerenciamento de tarefas, timer Pomodoro e autenticação progressiva em arquitetura Local-First, demonstrando domínio de gerenciamento de estado complexo e design centrado no usuário.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Zustand",
+        "PWA",
+        "Tailwind CSS"
+      ],
+      liveUrl: "https://zen-notes-eight.vercel.app/",
+      repoUrl: "https://github.com/HerculesArthurN/zen-notes"
     },
     {
       image: "portfolio.png",
       title: "Portfólio Pessoal em React",
-      description: "Portfólio pessoal para centralizar e apresentar minhas habilidades e projetos. Construído do zero com React, o site apresenta um design moderno no estilo Liquid Glass (Glassmorfismo). O projeto é totalmente componentizado, responsivo e seu conteúdo é gerenciado de forma centralizada em um arquivo de dados, facilitando futuras atualizações.",
-      technologies: ["React", "JavaScript (ES6+)", "CSS Modules", "HTML5", "GitHub Pages"],
-      liveUrl: "https://herculesarthurn.github.io/repositorio-portfolio/",
+      description:
+        "Portfólio profissional desenvolvido em React para showcase de projetos e competências técnicas. Aplica princípios de componentização, separação de responsabilidades e manutenibilidade, com design moderno em Glassmorphism e foco em apresentação clara de informações.",
+      technologies: [
+        "React",
+        "JavaScript (ES6+)",
+        "CSS Modules",
+        "HTML5",
+        "GitHub Pages"
+      ],
+      liveUrl: "https://herculesnardelli-portfolio.vercel.app/",
       repoUrl: "https://github.com/HerculesArthurN/repositorio-portfolio"
-    },
-    {
-      image: "zenbolso.png",
-      title: "ZenBolso um gerente de bolso",
-      description: "Uma aplicação que une um gerenciador de tarefas a um cronômetro da técnica Pomodoro para auxiliar na gestão do tempo e produtividade. Permite adicionar, concluir e selecionar tarefas, iniciando um timer regressivo para manter o foco. Ao final, a tarefa é marcada como concluída automaticamente.",
-      technologies: ["React", "TypeScript", "SASS/SCSS", "UUID"],
-      liveUrl: "https://to-do-list-pomodoro-react.vercel.app/",
-      repoUrl: "https://github.com/HerculesArthurN/to-do-list-pomodoro-react"
-    },
-    {
-      image: "pokedex.png",
-      title: "To-Do List com Timer Pomodoro",
-      description: "Uma aplicação que une um gerenciador de tarefas a um cronômetro da técnica Pomodoro para auxiliar na gestão do tempo e produtividade. Permite adicionar, concluir e selecionar tarefas, iniciando um timer regressivo para manter o foco. Ao final, a tarefa é marcada como concluída automaticamente.",
-      technologies: ["React", "TypeScript", "SASS/SCSS", "UUID"],
-      liveUrl: "https://to-do-list-pomodoro-react.vercel.app/",
-      repoUrl: "https://github.com/HerculesArthurN/to-do-list-pomodoro-react"
-    },
+    }
   ]
 };

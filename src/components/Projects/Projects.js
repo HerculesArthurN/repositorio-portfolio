@@ -3,11 +3,13 @@ import { projects } from '../../data/portfolioData';
 import { FaLink, FaGithub } from 'react-icons/fa';
 import styles from './Projects.module.css';
 
-import pomodoroImg from '../../assets/images/projects/pomodoro.png';
+import zenbolsoImg from '../../assets/images/projects/zenbolso.png';
+import zenNotesImg from '../../assets/images/projects/zen-notes.png';
 import portfolioImg from '../../assets/images/projects/portfolio.png';
 
 const projectImages = {
-  'pomodoro.png': pomodoroImg,
+  'zenbolso.png': zenbolsoImg,
+  'zen-notes.png': zenNotesImg,
   'portfolio.png': portfolioImg
 };
 
